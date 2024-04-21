@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff7e6;
+}
+
+header {
+    background-color: #333;
+    color: #ffd700;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    width: 200px; /* 设置统一的宽度 */
+    height: 355px; /* 设置统一的高度 */
+    object-fit: cover; /* 保持图片宽高比，并填充容器 */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffd700;
+    color: #664d03;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
